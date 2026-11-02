@@ -1,0 +1,505 @@
+{
+  "model_key": "jaka_zu7",
+  "generated_at": "2026-10-30T07:06:22+00:00",
+  "source": {
+    "step_path": "C:\\RoboModels\\Jaka\\zu7\\cad\\JAKA Zu 7-V2.0_20231016.STEP",
+    "sha256": "075aa255471bd836af7225818b21d231613ac914fe50defdbb03b68edabf6669",
+    "sha256_after_export": "075aa255471bd836af7225818b21d231613ac914fe50defdbb03b68edabf6669",
+    "sha256_unchanged": true
+  },
+  "tools": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "cadquery": "2.8.0",
+    "cadquery-ocp": "7.9.3.1.1",
+    "vtk": "9.6.2",
+    "pygltflib": "1.16.5"
+  },
+  "units": {
+    "step_original": "mm",
+    "cad_document": "mm",
+    "glb_output": "m",
+    "scale_applied": "RWMesh_CoordinateSystemConverter SetInputLengthUnit(0.001) -> SetOutputLengthUnit(1.0); applied once at export"
+  },
+  "coordinates": {
+    "cad": "Z-up (RWMesh_CoordinateSystem_Zup / posYfwd_posZup)",
+    "glb": "glTF Y-up (RWMesh_CoordinateSystem_glTF / negZfwd_posYup)",
+    "conversion": "single converter on RWGltf_CafWriter; do not rotate/scale again in frontend except intentional view camera"
+  },
+  "outputs": {
+    "glb": "C:\\RoboModels\\Jaka\\zu7\\web\\zu7_assembly.glb",
+    "glb_size_bytes": 3166512
+  },
+  "nodes_cad": [
+    {
+      "name": "Zu 7",
+      "path": "Zu 7",
+      "solid_count": 11,
+      "aabb_mm": {
+        "xmin": -82.00000010000001,
+        "ymin": -35.537519550474066,
+        "zmin": -221.649998616378,
+        "xmax": 705.6846684861766,
+        "ymax": 197.64998360497495,
+        "zmax": 79.00000010000004,
+        "dx": 787.6846685861766,
+        "dy": 233.187503155449,
+        "dz": 300.64999871637804,
+        "unit": "mm"
+      },
+      "color_rgba": null
+    },
+    {
+      "name": "NAUO1",
+      "path": "Zu 7/NAUO1",
+      "solid_count": 0,
+      "aabb_mm": {
+        "xmin": -82.00000010000001,
+        "ymin": -1.0000001313833737e-07,
+        "zmin": -79.00000010000005,
+        "xmax": 129.56604255869996,
+        "ymax": 40.00000010000001,
+        "zmax": 79.00000010000004,
+        "dx": 211.56604265869998,
+        "dy": 40.000000200000024,
+        "dz": 158.0000002000001,
+        "unit": "mm"
+      },
+      "color_rgba": null
+    },
+    {
+      "name": "NAUO2",
+      "path": "Zu 7/NAUO2",
+      "solid_count": 1,
+      "aabb_mm": {
+        "xmin": -62.52342234121093,
+        "ymin": 39.99999999999998,
+        "zmin": -64.00000010000001,
+        "xmax": 62.523422341210974,
+        "ymax": 197.64998360497495,
+        "zmax": 62.52342234121095,
+        "dx": 125.0468446824219,
+        "dy": 157.64998360497498,
+        "dz": 126.52342244121095,
+        "unit": "mm"
+      },
+      "color_rgba": null
+    },
+    {
+      "name": "NAUO3",
+      "path": "Zu 7/NAUO3",
+      "solid_count": 1,
+      "aabb_mm": {
+        "xmin": -62.52342234121095,
+        "ymin": 57.62655821535502,
+        "zmin": -221.649998616378,
+        "xmax": 422.5234223412116,
+        "ymax": 182.6734028977784,
+        "zmax": -63.999999999997705,
+        "dx": 485.04684468242255,
+        "dy": 125.04684468242338,
+        "dz": 157.64999861638032,
+        "unit": "mm"
+      },
+      "color_rgba": null
+    },
+    {
+      "name": "NAUO4",
+      "path": "Zu 7/NAUO4",
+      "solid_count": 3,
+      "aabb_mm": {
+        "xmin": 300.99732993492603,
+        "ymin": 61.1503551073432,
+        "zmin": -69.51249887704134,
+        "xmax": 705.6846684861766,
+        "ymax": 179.14996027097413,
+        "zmax": 55.48750212439956,
+        "dx": 404.6873385512506,
+        "dy": 117.99960516363093,
+        "dz": 125.00000100144089,
+        "unit": "mm"
+      },
+      "color_rgba": null
+    },
+    {
+      "name": "NAUO5",
+      "path": "Zu 7/NAUO5",
+      "solid_count": 2,
+      "aabb_mm": {
+        "xmin": 621.3210164106323,
+        "ymin": 52.14998054952601,
+        "zmin": -157.1999989770397,
+        "xmax": 705.6846684861766,
+        "ymax": 177.14998329516524,
+        "zmax": -69.51249877703978,
+        "dx": 84.36365207554434,
+        "dy": 125.00000274563922,
+        "dz": 87.68750019999993,
+        "unit": "mm"
+      },
+      "color_rgba": null
+    },
+    {
+      "name": "NAUO6",
+      "path": "Zu 7/NAUO6",
+      "solid_count": 2,
+      "aabb_mm": {
+        "xmin": 621.3210166683702,
+        "ymin": -35.537519550474066,
+        "zmin": -190.10470341751892,
+        "xmax": 705.6846684861763,
+        "ymax": 52.14998064952594,
+        "zmax": -47.01249886999437,
+        "dx": 84.36365181780604,
+        "dy": 87.68750020000002,
+        "dz": 143.09220454752455,
+        "unit": "mm"
+      },
+      "color_rgba": null
+    },
+    {
+      "name": "NAUO7",
+      "path": "Zu 7/NAUO7",
+      "solid_count": 2,
+      "aabb_mm": {
+        "xmin": 622.9971682861755,
+        "ymin": -34.35001945047404,
+        "zmin": -47.01249896999457,
+        "xmax": 703.9971684861754,
+        "ymax": 47.14998064952611,
+        "zmax": -8.012498869994541,
+        "dx": 81.00000019999993,
+        "dy": 81.50000010000015,
+        "dz": 39.00000010000002,
+        "unit": "mm"
+      },
+      "color_rgba": null
+    }
+  ],
+  "overall_aabb_mm": {
+    "xmin": -82.00000010000001,
+    "ymin": -35.537519550474066,
+    "zmin": -221.649998616378,
+    "xmax": 705.6846684861766,
+    "ymax": 197.64998360497495,
+    "zmax": 79.00000010000004,
+    "dx": 787.6846685861766,
+    "dy": 233.187503155449,
+    "dz": 300.64999871637804,
+    "unit": "mm"
+  },
+  "overall_aabb_m_from_cad": {
+    "xmin": -0.08200000010000001,
+    "ymin": -0.035537519550474066,
+    "zmin": -0.22164999861637802,
+    "xmax": 0.7056846684861766,
+    "ymax": 0.19764998360497496,
+    "zmax": 0.07900000010000004,
+    "dx": 0.7876846685861766,
+    "dy": 0.233187503155449,
+    "dz": 0.30064999871637804,
+    "unit": "m",
+    "derived_from": "cad_aabb_mm / 1000"
+  },
+  "glb_stats": {
+    "node_count": 8,
+    "mesh_count": 7,
+    "nodes": [
+      {
+        "index": 0,
+        "name": "Zu 7",
+        "mesh": null,
+        "children": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "translation": null,
+        "rotation": null,
+        "scale": null,
+        "matrix": null
+      },
+      {
+        "index": 1,
+        "name": "NAUO1",
+        "mesh": 0,
+        "children": [],
+        "translation": null,
+        "rotation": null,
+        "scale": null,
+        "matrix": null
+      },
+      {
+        "index": 2,
+        "name": "NAUO2",
+        "mesh": 1,
+        "children": [],
+        "translation": [
+          1.3877787760086907e-17,
+          1.578730323657402e-27,
+          -0.03999999999999998
+        ],
+        "rotation": [
+          6.877480783580406e-24,
+          -1.5839947541283665e-23,
+          -0.7071067811865475,
+          0.7071067811865475
+        ],
+        "scale": null,
+        "matrix": null
+      },
+      {
+        "index": 3,
+        "name": "NAUO3",
+        "mesh": 2,
+        "children": [],
+        "translation": [
+          -0.12014998055656743,
+          -7.138162239198453e-18,
+          -0.12014998055656748
+        ],
+        "rotation": [
+          0.4999999999999992,
+          -0.5000000000000009,
+          -0.49999999999999745,
+          0.5000000000000027
+        ],
+        "scale": null,
+        "matrix": null
+      },
+      {
+        "index": 4,
+        "name": "NAUO4",
+        "mesh": 3,
+        "children": [],
+        "translation": [
+          -0.12015281217039082,
+          3.67976474700593e-15,
+          -0.12014998055656746
+        ],
+        "rotation": [
+          -0.5000000000000019,
+          0.4999999999999982,
+          0.5000000000000031,
+          -0.499999999999997
+        ],
+        "scale": null,
+        "matrix": null
+      },
+      {
+        "index": 5,
+        "name": "NAUO5",
+        "mesh": 4,
+        "children": [],
+        "translation": [
+          0.6634971683861766,
+          -0.11501249887703976,
+          -0.05214998054952602
+        ],
+        "rotation": [
+          -6.388984972857441e-17,
+          6.368016253947968e-17,
+          -0.7071067811865475,
+          0.7071067811865476
+        ],
+        "scale": null,
+        "matrix": null
+      },
+      {
+        "index": 6,
+        "name": "NAUO6",
+        "mesh": 5,
+        "children": [],
+        "translation": [
+          0.6634971683861762,
+          -0.04701249886999438,
+          -0.006649980549525952
+        ],
+        "rotation": [
+          0.5000000000000001,
+          -0.5,
+          -0.5000000000000001,
+          -0.5
+        ],
+        "scale": null,
+        "matrix": null
+      },
+      {
+        "index": 7,
+        "name": "NAUO7",
+        "mesh": 6,
+        "children": [],
+        "translation": [
+          0.5135353930850973,
+          -0.008012498869994545,
+          0.06916586441031143
+        ],
+        "rotation": [
+          0.14597786752604658,
+          0.6918746000486996,
+          0.6918746000486994,
+          -0.14597786752604666
+        ],
+        "scale": null,
+        "matrix": null
+      }
+    ],
+    "triangle_count_est": 92237,
+    "aabb_m": {
+      "xmin": -0.208230122923851,
+      "ymin": -0.07900000363588333,
+      "zmin": -0.8257976174354553,
+      "xmax": 0.22164902091026306,
+      "ymax": 0.07900000363588333,
+      "zmax": 1.520454911440256e-17,
+      "dx": 0.4298791438341141,
+      "dy": 0.15800000727176666,
+      "dz": 0.8257976174354553,
+      "unit": "m",
+      "source": "glb_POSITION_accessors"
+    },
+    "file_size_bytes": 3166512,
+    "aabb_m_world_corrected": {
+      "xmin": -0.0820000022649765,
+      "ymin": -0.22164902091026306,
+      "zmin": -0.19764994919300077,
+      "xmax": 0.7056769764067683,
+      "ymax": 0.07900000363588333,
+      "zmax": 0.03549919440894155,
+      "dx": 0.7876769786717448,
+      "dy": 0.3006490245461464,
+      "dz": 0.23314914360194233,
+      "cx": 0.3118384870708959,
+      "cy": -0.07132450863718987,
+      "cz": -0.08107537739202961,
+      "unit": "m",
+      "frame": "gltf_scene_world_Yup"
+    },
+    "aabb_m_previous_local_mesh_only_incorrect": {
+      "xmin": -0.208230122923851,
+      "ymin": -0.07900000363588333,
+      "zmin": -0.8257976174354553,
+      "xmax": 0.22164902091026306,
+      "ymax": 0.07900000363588333,
+      "zmax": 1.520454911440256e-17,
+      "dx": 0.4298791438341141,
+      "dy": 0.15800000727176666,
+      "dz": 0.8257976174354553,
+      "unit": "m",
+      "source": "glb_POSITION_accessors"
+    }
+  },
+  "triangulation": {
+    "deflection_mm": 0.2,
+    "angle_rad": 0.5,
+    "meshed_shape_count": 7,
+    "merge_faces": false
+  },
+  "license_status": {
+    "cadquery": "Apache Public License 2.0",
+    "cadquery-ocp": "Apache-2.0",
+    "note": "Values from package METADATA License field as installed; not a legal opinion."
+  },
+  "static_model": true,
+  "joints_verified": false,
+  "notes": [
+    "Static display asset only; joint axes / home / zero not inferred.",
+    "Assembly hierarchy taken from STEPCAF/XCAF, not solid order guessing."
+  ],
+  "aabb_reconcile": {
+    "generated_at": "2026-10-30T07:31:55+00:00",
+    "glb_reexported": false,
+    "root_cause": {
+      "primary": "measurement_script_error_on_glb_aabb",
+      "details": [
+        "Prior GLB overall AABB used raw POSITION accessors without applying node world matrices; that mixes local mesh space with CAD world space.",
+        "CAD AABB from XCAF component GetShape_s already includes assembly placement.",
+        "Export converter mapping verified: (x,y,z)_mm -> (x,z,-y)/1000 in meters.",
+        "mm->m applied once via InputLengthUnit=0.001; no second scale in GLB file.",
+        "After correction, overall max extent abs diff=0.000038 m; center distance=0.000020 m."
+      ],
+      "reexport_required": false,
+      "triangulation_deflection_m": 0.0002,
+      "acceptance_hint_extent_m": 0.0005,
+      "overall_max_extent_abs_diff_m": 3.8359553506700506e-05,
+      "overall_center_distance_m": 1.9534227669796996e-05
+    },
+    "overall": {
+      "cad_world_mm": {
+        "xmin": -82.00000010000001,
+        "ymin": -35.537519550474066,
+        "zmin": -221.649998616378,
+        "xmax": 705.6846684861766,
+        "ymax": 197.64998360497495,
+        "zmax": 79.00000010000004,
+        "dx": 787.6846685861766,
+        "dy": 233.187503155449,
+        "dz": 300.64999871637804,
+        "cx": 311.84233419308833,
+        "cy": 81.05623202725045,
+        "cz": -71.324999258189,
+        "unit": "mm",
+        "frame": "cad_assembly_world_Zup"
+      },
+      "cad_converted_gltf_m": {
+        "xmin": -0.08200000010000001,
+        "ymin": -0.22164999861637802,
+        "zmin": -0.19764998360497496,
+        "xmax": 0.7056846684861766,
+        "ymax": 0.07900000010000004,
+        "zmax": 0.035537519550474066,
+        "dx": 0.7876846685861766,
+        "dy": 0.30064999871637804,
+        "dz": 0.23318750315544903,
+        "cx": 0.3118423341930883,
+        "cy": -0.071324999258189,
+        "cz": -0.08105623202725044,
+        "unit": "m",
+        "frame": "gltf_Yup_after_same_export_converter"
+      },
+      "glb_world_m": {
+        "xmin": -0.0820000022649765,
+        "ymin": -0.22164902091026306,
+        "zmin": -0.19764994919300077,
+        "xmax": 0.7056769764067683,
+        "ymax": 0.07900000363588333,
+        "zmax": 0.03549919440894155,
+        "dx": 0.7876769786717448,
+        "dy": 0.3006490245461464,
+        "dz": 0.23314914360194233,
+        "cx": 0.3118384870708959,
+        "cy": -0.07132450863718987,
+        "cz": -0.08107537739202961,
+        "unit": "m",
+        "frame": "gltf_scene_world_Yup"
+      },
+      "comparison": {
+        "comparable": true,
+        "diff": {
+          "dx": -7.68991443178546e-06,
+          "dy": -9.741702316490297e-07,
+          "dz": -3.8359553506700506e-05,
+          "cx": -3.847122192424113e-06,
+          "cy": 4.906209991328847e-07,
+          "cz": -1.91453647791634e-05
+        },
+        "abs_diff": {
+          "dx": 7.68991443178546e-06,
+          "dy": 9.741702316490297e-07,
+          "dz": 3.8359553506700506e-05,
+          "cx": 3.847122192424113e-06,
+          "cy": 4.906209991328847e-07,
+          "cz": 1.91453647791634e-05
+        },
+        "max_extent_abs_diff": 3.8359553506700506e-05,
+        "center_distance": 1.9534227669796996e-05
+      }
+    },
+    "conversion_formula": "(x,y,z)_cad_mm -> (x*0.001, z*0.001, -y*0.001)_gltf_m",
+    "report_path": "C:\\RoboModels\\Jaka\\zu7\\web\\zu7_aabb_reconcile.json",
+    "source_sha256_unchanged": true
+  }
+}

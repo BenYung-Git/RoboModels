@@ -1,0 +1,10 @@
+# Treat CAD / mesh / archives as binary (no line-ending or diff text mangling)
+*.STEP binary
+*.step binary
+*.STP binary
+*.stp binary
+*.glb binary
+*.GLB binary
+*.gltf binary
+*.zip binary
+*.ZIP binary

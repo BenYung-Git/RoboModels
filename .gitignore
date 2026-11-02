@@ -1,0 +1,42 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# Temp / cache / logs
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.log
+*.log.*
+logs/
+tmp/
+temp/
+cache/
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Backup folders / copies
+backup/
+backups/
+*_backup/
+*_bak/
+*.zip.bak
+*.STEP.bak
+*.glb.bak
+
+# Local scratch (keep model assets tracked)
+*.partial
+*.download
+.Trash-*
