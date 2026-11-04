@@ -1,0 +1,150 @@
+{
+  "sources": {
+    "sldasm": {
+      "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7.SLDASM",
+      "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7.SLDASM",
+      "exists": true,
+      "size": 2582470,
+      "sha256": "52d83cc521da87ffd26787a70a83585db3f6456163e829d233c9a754546364b8"
+    },
+    "sldprt": [
+      {
+        "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 00.SLDPRT",
+        "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 00.SLDPRT",
+        "exists": true,
+        "size": 1494269,
+        "sha256": "7d009bea91a2bf9d04302b17297a81822e425b6d2a88911c7e8df79f185f3601"
+      },
+      {
+        "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 01.SLDPRT",
+        "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 01.SLDPRT",
+        "exists": true,
+        "size": 309530,
+        "sha256": "d032cfdaca9b382841a117d525ec63b0577fac17723915bf2f46542f81de43fe"
+      },
+      {
+        "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\ZU 7 02.SLDPRT",
+        "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/ZU 7 02.SLDPRT",
+        "exists": true,
+        "size": 21450101,
+        "sha256": "6c8d6a2d619a48357b2da3e3fc7288208632c4f40771bd130ec9efe4d037676a"
+      },
+      {
+        "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\ZU 7 03.SLDPRT",
+        "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/ZU 7 03.SLDPRT",
+        "exists": true,
+        "size": 1026571,
+        "sha256": "8a656a6d24d738cc40b651062ea2c011d87f0f99a77577d01071b32f8e64b7b2"
+      },
+      {
+        "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 04.SLDPRT",
+        "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 04.SLDPRT",
+        "exists": true,
+        "size": 348604,
+        "sha256": "68e7f939bb1a8c1a4766c09fe5afc5d03b3c93daff8a690fa2cb31eb25d6ba34"
+      },
+      {
+        "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 05.SLDPRT",
+        "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 05.SLDPRT",
+        "exists": true,
+        "size": 258266,
+        "sha256": "a5fae392ee407306aa6ec06b2e33b6cb3a9ceecb14678df005779a33b2a3fff3"
+      },
+      {
+        "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 06.SLDPRT",
+        "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 06.SLDPRT",
+        "exists": true,
+        "size": 231751,
+        "sha256": "973494428778cdbe2ab9fa06c68331156d756dc2258fc535ce2b196164a122bc"
+      }
+    ],
+    "dwg": [
+      {
+        "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\drawing_2d\\JAKA Zu7_C7_20231222090631A028\\Zu7_C7 Base Size-V1.1_20231016.DWG",
+        "rel": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Base Size-V1.1_20231016.DWG",
+        "exists": true,
+        "size": 311723,
+        "sha256": "180002578a76edf6663504df5f45f21da4d7686ed515bc1d31f5abfe752431ce"
+      },
+      {
+        "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\drawing_2d\\JAKA Zu7_C7_20231222090631A028\\Zu7_C7 DH Parameter-V1.0.DWG",
+        "rel": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 DH Parameter-V1.0.DWG",
+        "exists": true,
+        "size": 422198,
+        "sha256": "39934e781755bad4c6f025fbbbaa1fbd955b8cc999574037f0ba3e63bb4763d0"
+      },
+      {
+        "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\drawing_2d\\JAKA Zu7_C7_20231222090631A028\\Zu7_C7 Flange Size-V1.0.DWG",
+        "rel": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Flange Size-V1.0.DWG",
+        "exists": true,
+        "size": 331048,
+        "sha256": "c6656a4e8c370fba7bdc1ccd96d319daa90eeff32da9863fc3ac5253832fc818"
+      },
+      {
+        "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\drawing_2d\\JAKA Zu7_C7_20231222090631A028\\Zu7_C7 Workspace-V1.0.DWG",
+        "rel": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Workspace-V1.0.DWG",
+        "exists": true,
+        "size": 444342,
+        "sha256": "45bf2d4dde420f999eda1f63efab99c9d826f61c90c5d4a372e9483be28a4669"
+      }
+    ],
+    "jt": {
+      "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\jt\\JAKA_Zu_7_V2.cojt\\JAKA_Zu_7_V2.jt",
+      "rel": "Jaka/zu7/downloads/_extract/jt/JAKA_Zu_7_V2.cojt/JAKA_Zu_7_V2.jt",
+      "exists": true,
+      "size": 468148,
+      "sha256": "7c91be7515fea27636a1ef45ba9957ba22076d3306b53db5f0ef5d80a41bbe27"
+    },
+    "jt_kin_graph": {
+      "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\jt\\JAKA_Zu_7_V2.cojt\\kin_graph.xml",
+      "rel": "Jaka/zu7/downloads/_extract/jt/JAKA_Zu_7_V2.cojt/kin_graph.xml",
+      "exists": true,
+      "size": 1919,
+      "sha256": "3f0de99af650135ed68f656cd05d2bed9347177d14b3a9b973fe8ca41c052a48"
+    },
+    "jt_preview_bmp": {
+      "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\jt\\JAKA_Zu_7_V2.cojt\\preview.bmp",
+      "rel": "Jaka/zu7/downloads/_extract/jt/JAKA_Zu_7_V2.cojt/preview.bmp",
+      "exists": true,
+      "size": 91254,
+      "sha256": "5f652099b5477fcc97da3413dec5bcb1efc649e504aa3c18fed24057f53c2c13"
+    },
+    "sld_zip_pack": {
+      "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033.zip",
+      "rel": "Jaka/zu7/downloads/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033.zip",
+      "exists": true,
+      "size": 26079512,
+      "sha256": "13045cc7491b280789fb723cff77b0eeb3394620a7949edf1751f118e64c0c1e"
+    },
+    "jt_zip_pack": {
+      "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\jt\\JAKA_Zu_7_V2.cojt.zip",
+      "rel": "Jaka/zu7/downloads/jt/JAKA_Zu_7_V2.cojt.zip",
+      "exists": true,
+      "size": 453137,
+      "sha256": "aa5f13d952ef02918e948988cd61da6e7b55c5e1b2e98cdbeb824af2f61c71ab"
+    },
+    "glb_default": {
+      "abs": "C:\\RoboModels\\Jaka\\zu7\\web\\zu7_assembly.glb",
+      "rel": "Jaka/zu7/web/zu7_assembly.glb",
+      "exists": true,
+      "size": 3166512,
+      "sha256": "556a7626b664cf2a9d6df49b5a18f9a3ae34f2fcb2f7a3ff69c1f4ddde657126"
+    }
+  },
+  "integrity": {
+    "sldasm_part_count": 7,
+    "sldasm_parts_colocated_ok": true,
+    "sldasm_internal_refs": "not_readable_without_SolidWorks; co-location of 7 SLDPRT verified only",
+    "dwg_count": 4,
+    "dwg_ok": true,
+    "jt_companions_ok": true,
+    "dwg_magic": {
+      "Zu7_C7 Base Size-V1.1_20231016.DWG": "AC1015",
+      "Zu7_C7 DH Parameter-V1.0.DWG": "AC1015",
+      "Zu7_C7 Flange Size-V1.0.DWG": "AC1015",
+      "Zu7_C7 Workspace-V1.0.DWG": "AC1015"
+    },
+    "jt_header": "Version 10.0 JT  DM 8.3.1.10                    ",
+    "glb_sha256_ok": true
+  }
+}

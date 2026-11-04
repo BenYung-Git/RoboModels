@@ -36,6 +36,16 @@ backups/
 *.STEP.bak
 *.glb.bak
 
+# Archives — keep source STEP/GLB tracked; do not add pack downloads
+*.zip
+*.ZIP
+*.rar
+*.RAR
+*.7z
+
+# Preview conversion scratch
+**/previews/_work/
+
 # Local scratch (keep model assets tracked)
 *.partial
 *.download

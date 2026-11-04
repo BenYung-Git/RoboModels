@@ -1,0 +1,386 @@
+{
+  "step_path": "C:\\RoboModels\\Jaka\\zu5\\cad\\JAKA Zu 5-V2.0_20231016.STEP",
+  "sha256_before": "1e0fd6650c4a9406f85c344ed0cf4d7a7f210ef2c4de407458a07c41dca27491",
+  "cascade_unit": "MM",
+  "step_declared_unit": "mm (SI_UNIT .MILLI. .METRE. from prior text inspect; reader cascade=MM)",
+  "free_shape_count": 1,
+  "nodes": [
+    {
+      "name": "Zu 5",
+      "path": "Zu 5",
+      "depth": 0,
+      "is_assembly": true,
+      "is_component": false,
+      "is_simple_shape": false,
+      "has_referred_shape": false,
+      "referred_name": null,
+      "solid_count": 13,
+      "aabb_mm": {
+        "xmin": -82.00000010000001,
+        "ymin": -35.54936913488822,
+        "zmin": -221.64998360497594,
+        "xmax": 840.6897553432424,
+        "ymax": 197.64998360497495,
+        "zmax": 79.00000010000004,
+        "dx": 922.6897554432423,
+        "dy": 233.19935273986317,
+        "dz": 300.64998370497597,
+        "unit": "mm"
+      },
+      "geometry_valid": true,
+      "validity": {
+        "ok": true,
+        "solid_count": 13
+      },
+      "color_rgba": null,
+      "empty": false
+    },
+    {
+      "name": "NAUO1",
+      "path": "Zu 5/NAUO1",
+      "depth": 1,
+      "is_assembly": false,
+      "is_component": true,
+      "is_simple_shape": false,
+      "has_referred_shape": true,
+      "referred_name": "Zu 5 00",
+      "solid_count": 0,
+      "aabb_mm": {
+        "xmin": -82.00000010000001,
+        "ymin": -1.0000001313833737e-07,
+        "zmin": -79.00000010000005,
+        "xmax": 129.56604255869996,
+        "ymax": 40.00000010000001,
+        "zmax": 79.00000010000004,
+        "dx": 211.56604265869998,
+        "dy": 40.000000200000024,
+        "dz": 158.0000002000001,
+        "unit": "mm"
+      },
+      "geometry_valid": true,
+      "validity": {
+        "ok": true,
+        "solid_count": 0
+      },
+      "color_rgba": null,
+      "empty": true
+    },
+    {
+      "name": "NAUO2",
+      "path": "Zu 5/NAUO2",
+      "depth": 1,
+      "is_assembly": false,
+      "is_component": true,
+      "is_simple_shape": false,
+      "has_referred_shape": true,
+      "referred_name": "Zu 5 01",
+      "solid_count": 1,
+      "aabb_mm": {
+        "xmin": -62.52342234121093,
+        "ymin": 39.99999999999998,
+        "zmin": -64.00000010000001,
+        "xmax": 62.523422341210974,
+        "ymax": 197.64998360497495,
+        "zmax": 62.52342234121095,
+        "dx": 125.0468446824219,
+        "dy": 157.64998360497498,
+        "dz": 126.52342244121095,
+        "unit": "mm"
+      },
+      "geometry_valid": true,
+      "validity": {
+        "ok": true,
+        "solid_count": 1
+      },
+      "color_rgba": null,
+      "empty": false
+    },
+    {
+      "name": "NAUO3",
+      "path": "Zu 5/NAUO3",
+      "depth": 1,
+      "is_assembly": false,
+      "is_component": true,
+      "is_simple_shape": false,
+      "has_referred_shape": true,
+      "referred_name": "Zu 5 02",
+      "solid_count": 3,
+      "aabb_mm": {
+        "xmin": -62.523422341210946,
+        "ymin": 57.62655821535686,
+        "zmin": -221.64998360497594,
+        "xmax": 492.52341620937705,
+        "ymax": 182.65220308278637,
+        "zmax": -64.00000000000001,
+        "dx": 555.046838550588,
+        "dy": 125.02564486742952,
+        "dz": 157.64998360497594,
+        "unit": "mm"
+      },
+      "geometry_valid": true,
+      "validity": {
+        "ok": true,
+        "solid_count": 3
+      },
+      "color_rgba": null,
+      "empty": false
+    },
+    {
+      "name": "NAUO4",
+      "path": "Zu 5/NAUO4",
+      "depth": 1,
+      "is_assembly": false,
+      "is_component": true,
+      "is_simple_shape": false,
+      "has_referred_shape": true,
+      "referred_name": "Zu 5 03",
+      "solid_count": 3,
+      "aabb_mm": {
+        "xmin": 371.00225820917757,
+        "ymin": 61.138130872162286,
+        "zmin": -68.50000000703392,
+        "xmax": 840.6897553432424,
+        "ymax": 179.13813089965205,
+        "zmax": 56.50002099501088,
+        "dx": 469.6874971340648,
+        "dy": 118.00000002748976,
+        "dz": 125.0000210020448,
+        "unit": "mm"
+      },
+      "geometry_valid": true,
+      "validity": {
+        "ok": true,
+        "solid_count": 3
+      },
+      "color_rgba": null,
+      "empty": false
+    },
+    {
+      "name": "NAUO5",
+      "path": "Zu 5/NAUO5",
+      "depth": 1,
+      "is_assembly": false,
+      "is_component": true,
+      "is_simple_shape": false,
+      "has_referred_shape": true,
+      "referred_name": "Zu 5 04",
+      "solid_count": 2,
+      "aabb_mm": {
+        "xmin": 756.3147551432421,
+        "ymin": 52.13813096511178,
+        "zmin": -156.18750010703383,
+        "xmax": 840.6897553432422,
+        "ymax": 177.1381519671565,
+        "zmax": -68.4999999070339,
+        "dx": 84.37500020000004,
+        "dy": 125.00002100204472,
+        "dz": 87.68750019999993,
+        "unit": "mm"
+      },
+      "geometry_valid": true,
+      "validity": {
+        "ok": true,
+        "solid_count": 2
+      },
+      "color_rgba": null,
+      "empty": false
+    },
+    {
+      "name": "NAUO6",
+      "path": "Zu 5/NAUO6",
+      "depth": 1,
+      "is_assembly": false,
+      "is_component": true,
+      "is_simple_shape": false,
+      "has_referred_shape": true,
+      "referred_name": "Zu 5 05",
+      "solid_count": 2,
+      "aabb_mm": {
+        "xmin": 756.3261035254352,
+        "ymin": -35.54936913488822,
+        "zmin": -189.09220454751554,
+        "xmax": 840.6897553432412,
+        "ymax": 52.1381310651118,
+        "zmax": -45.99999999999096,
+        "dx": 84.36365181780604,
+        "dy": 87.68750020000002,
+        "dz": 143.09220454752457,
+        "unit": "mm"
+      },
+      "geometry_valid": true,
+      "validity": {
+        "ok": true,
+        "solid_count": 2
+      },
+      "color_rgba": null,
+      "empty": false
+    },
+    {
+      "name": "NAUO7",
+      "path": "Zu 5/NAUO7",
+      "depth": 1,
+      "is_assembly": false,
+      "is_component": true,
+      "is_simple_shape": false,
+      "has_referred_shape": true,
+      "referred_name": "Zu 5 06",
+      "solid_count": 2,
+      "aabb_mm": {
+        "xmin": 758.0022551432406,
+        "ymin": -34.36186903488812,
+        "zmin": -46.00000009999101,
+        "xmax": 839.0022553432407,
+        "ymax": 47.13813106511203,
+        "zmax": -6.999999999990986,
+        "dx": 81.00000020000004,
+        "dy": 81.50000010000015,
+        "dz": 39.00000010000003,
+        "unit": "mm"
+      },
+      "geometry_valid": true,
+      "validity": {
+        "ok": true,
+        "solid_count": 2
+      },
+      "color_rgba": null,
+      "empty": false
+    }
+  ],
+  "overall_aabb_mm": {
+    "xmin": -82.00000010000001,
+    "ymin": -35.54936913488822,
+    "zmin": -221.64998360497594,
+    "xmax": 840.6897553432424,
+    "ymax": 197.64998360497495,
+    "zmax": 79.00000010000004,
+    "dx": 922.6897554432423,
+    "dy": 233.19935273986317,
+    "dz": 300.64998370497597,
+    "unit": "mm"
+  },
+  "aabb_method": {
+    "api": "BRepBndLib.AddOptimal",
+    "gap": 0.0,
+    "use_triangulation": true,
+    "use_shape_tolerance": false,
+    "notes": "Exact/optimal geometric bounding box of B-Rep in assembly placement; not CARTESIAN_POINT envelope."
+  },
+  "assembly_preserved": true,
+  "missing_products": [],
+  "colors_found": 0,
+  "empty_nodes": [
+    "Zu 5/NAUO1"
+  ],
+  "invalid_geometry": [],
+  "tool_versions": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "cadquery": "2.8.0",
+    "cadquery-ocp": "7.9.3.1.1",
+    "vtk": "9.6.2",
+    "pygltflib": "1.16.5"
+  },
+  "aabb_reconcile": {
+    "generated_at": "2026-11-02T07:30:04+00:00",
+    "root_cause": {
+      "primary": "measurement_script_error_on_glb_aabb",
+      "details": [
+        "Prior GLB overall AABB used raw POSITION accessors without applying node world matrices; that mixes local mesh space with CAD world space.",
+        "CAD AABB from XCAF component GetShape_s already includes assembly placement.",
+        "Export converter mapping verified: (x,y,z)_mm -> (x,z,-y)/1000 in meters.",
+        "mm->m applied once via InputLengthUnit=0.001; no second scale in GLB file.",
+        "After correction, overall max extent abs diff=0.000038 m; center distance=0.000020 m."
+      ],
+      "reexport_required": false,
+      "triangulation_deflection_m": 0.0002,
+      "acceptance_hint_extent_m": 0.0005,
+      "overall_max_extent_abs_diff_m": 3.8359553506700506e-05,
+      "overall_center_distance_m": 1.9528069720182244e-05
+    },
+    "overall_comparison": {
+      "comparable": true,
+      "diff": {
+        "dx": -7.689914432007505e-06,
+        "dy": -1.8642414056913026e-08,
+        "dz": -3.8359553506700506e-05,
+        "cx": -3.847122192535135e-06,
+        "cy": 1.285709033682636e-08,
+        "cz": -1.91453647791634e-05
+      },
+      "abs_diff": {
+        "dx": 7.689914432007505e-06,
+        "dy": 1.8642414056913026e-08,
+        "dz": 3.8359553506700506e-05,
+        "cx": 3.847122192535135e-06,
+        "cy": 1.285709033682636e-08,
+        "cz": 1.91453647791634e-05
+      },
+      "max_extent_abs_diff": 3.8359553506700506e-05,
+      "center_distance": 1.9528069720182244e-05
+    },
+    "conversion_formula": "(x,y,z)_cad_mm -> (x*0.001, z*0.001, -y*0.001)_gltf_m",
+    "report_path": "C:\\RoboModels\\Jaka\\zu5\\web\\zu5_aabb_reconcile.json"
+  },
+  "brep_check_details": [
+    {
+      "component_name": "NAUO3",
+      "product_name": "Zu 5 02",
+      "brep_check": {
+        "ok": true,
+        "status_counts": {},
+        "samples": [],
+        "solid_count": 3,
+        "shell_count": 3,
+        "face_count": 505,
+        "shape_type": "COMPOUND"
+      }
+    },
+    {
+      "component_name": "NAUO4",
+      "product_name": "Zu 5 03",
+      "brep_check": {
+        "ok": true,
+        "status_counts": {},
+        "samples": [],
+        "solid_count": 3,
+        "shell_count": 3,
+        "face_count": 379,
+        "shape_type": "COMPOUND"
+      }
+    }
+  ],
+  "zu5_00_topology": {
+    "component_name": "NAUO1",
+    "product_name": "Zu 5 00",
+    "topology_located": {
+      "shape_type": "COMPOUND",
+      "solid_count": 0,
+      "compsolid_count": 0,
+      "shell_count": 4,
+      "face_count": 743,
+      "wire_count": 793,
+      "edge_count": 3805,
+      "compound_count": 1
+    },
+    "topology_referred": {
+      "shape_type": "COMPOUND",
+      "solid_count": 0,
+      "compsolid_count": 0,
+      "shell_count": 4,
+      "face_count": 743,
+      "wire_count": 793,
+      "edge_count": 3805,
+      "compound_count": 1
+    },
+    "brep_check": {
+      "ok": true,
+      "status_counts": {},
+      "samples": [],
+      "solid_count": 0,
+      "shell_count": 4,
+      "face_count": 743,
+      "shape_type": "COMPOUND"
+    },
+    "note": "solid_count may be 0 if geometry is SHELL/FACE compound; mesh still possible."
+  },
+  "colors_note": "XCAF GetColor on labels returned no assigned colors in this read path; not asserting source file has none."
+}

@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-11-03T16:05:54+08:00",
+  "download_url": "https://static.rokae.com/Downloads/Models/CR7-7_0.98C%20Models.rar",
+  "archive_contents": [
+    {
+      "name": "CR7-7_0.98C Models.stp",
+      "format": "STEP (ISO-10303-21)",
+      "size": 6100730
+    }
+  ],
+  "files": {
+    "rar": {
+      "path": "C:\\RoboModels\\Rokae\\cr7\\source\\CR7-7_0.98C Models.rar",
+      "size": 975773,
+      "sha256": "4c1b34713139a20edc5ac166fa839ce37bf1a1f524c0d5ffa54bc22449ea7c24"
+    },
+    "stp": {
+      "path": "C:\\RoboModels\\Rokae\\cr7\\source\\CR7-7_0.98C Models.stp",
+      "size": 6100730,
+      "sha256": "83cdbc2f9bfefe9fb8d9fbc415e61ea0a18a820dd2873ceb392c79f14e7b3645"
+    },
+    "glb": {
+      "path": "C:\\RoboModels\\Rokae\\cr7\\web\\cr7_assembly.glb",
+      "size": 3823520,
+      "sha256": "612719d7988eef8835bf01db4727c694cc593272064f1692667539c048bc80e7"
+    }
+  },
+  "embedded_step_file_name": "【】XMC7-R850-C 简化模型  202340301.stp",
+  "note": "Official simplified model; GLB uses labeled display material from STEP COLOUR_RGB (not OEM paint claim)."
+}

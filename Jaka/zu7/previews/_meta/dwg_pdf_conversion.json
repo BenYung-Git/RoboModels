@@ -1,0 +1,40 @@
+{
+  "converted_at": "2026-11-03T14:20:49+08:00",
+  "pipeline": "DWG --ODAFileConverter--> DXF --ezdxf+matplotlib--> PDF",
+  "copied": [
+    {
+      "key": "dwg_base",
+      "source": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Base Size-V1.1_20231016.DWG",
+      "source_sha256": "180002578a76edf6663504df5f45f21da4d7686ed515bc1d31f5abfe752431ce",
+      "output": "Jaka/zu7/previews/drawings/zu7_base.pdf",
+      "output_sha256": "b6c2a272a91b6487692d3726955e4fd848f121c9827b139013ffeeb1af2af22e",
+      "pdf_bytes": 121026
+    },
+    {
+      "key": "dwg_dh",
+      "source": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 DH Parameter-V1.0.DWG",
+      "source_sha256": "39934e781755bad4c6f025fbbbaa1fbd955b8cc999574037f0ba3e63bb4763d0",
+      "output": "Jaka/zu7/previews/drawings/zu7_dh.pdf",
+      "output_sha256": "2d0dd980abd29ffce1227859d9bd7da5f15d25c9927ed0b1f43bb00a9415b0b0",
+      "pdf_bytes": 93296
+    },
+    {
+      "key": "dwg_flange",
+      "source": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Flange Size-V1.0.DWG",
+      "source_sha256": "c6656a4e8c370fba7bdc1ccd96d319daa90eeff32da9863fc3ac5253832fc818",
+      "output": "Jaka/zu7/previews/drawings/zu7_flange.pdf",
+      "output_sha256": "3cfe71a1735c5f53bb26fa203d944dcdc21d0c4043a42503a8645c622c792fd2",
+      "pdf_bytes": 54350
+    },
+    {
+      "key": "dwg_workspace",
+      "source": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Workspace-V1.0.DWG",
+      "source_sha256": "45bf2d4dde420f999eda1f63efab99c9d826f61c90c5d4a372e9483be28a4669",
+      "output": "Jaka/zu7/previews/drawings/zu7_workspace.pdf",
+      "output_sha256": "178b3b83ed3c84efc8265df27ba0880b456ab631ecd3ca6ad269e63455ca8a6d",
+      "pdf_bytes": 136609
+    }
+  ],
+  "sldasm_jt": "unchanged_blocked",
+  "originals_modified": false
+}

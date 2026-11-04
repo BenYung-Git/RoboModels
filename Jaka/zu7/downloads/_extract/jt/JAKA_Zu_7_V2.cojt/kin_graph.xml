@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AddFlow Nodes="0" Links="0">
+  <Version>2.2.0.0</Version>
+  <DefaultLink>
+    <Rigid>False</Rigid>
+  </DefaultLink>
+  <DefaultNode>
+    <Shape Type="RectEdgeRaised" Orientation="so_0" />
+    <HighlightChildren>False</HighlightChildren>
+  </DefaultNode>
+  <Node Index="-1" Left="20" Top="3.33333325" Width="66.6666641" Height="26.666666">
+    <FillColor>-1</FillColor>
+    <Text>k1</Text>
+    <Tooltip>k1</Tooltip>
+    <Url>{8E707B8C-6056-4AF6-BDA2-3E7F9CFF10AD}</Url>
+  </Node>
+  <Node Index="-1" Left="120" Top="70" Width="66.6666641" Height="26.666666">
+    <FillColor>-1</FillColor>
+    <Text>k2</Text>
+    <Tooltip>k2</Tooltip>
+    <Url>{3E719298-F26B-41AB-8AEA-053C5F494308}</Url>
+  </Node>
+  <Node Index="-1" Left="20" Top="136.666672" Width="66.6666641" Height="26.666666">
+    <FillColor>-1</FillColor>
+    <Text>k3</Text>
+    <Tooltip>k3</Tooltip>
+    <Url>{A7FB8DB3-1398-4A54-BE0A-62F4C68A3D41}</Url>
+  </Node>
+  <Node Index="-1" Left="120" Top="203.333328" Width="66.6666641" Height="26.666666">
+    <FillColor>-1</FillColor>
+    <Text>k4</Text>
+    <Tooltip>k4</Tooltip>
+    <Url>{455E68B4-9FF6-4855-A27A-9983BAC16A76}</Url>
+  </Node>
+  <Node Index="-1" Left="20" Top="270" Width="66.6666641" Height="26.666666">
+    <FillColor>-1</FillColor>
+    <Text>k5</Text>
+    <Tooltip>k5</Tooltip>
+    <Url>{1F3505F4-48DD-4CD9-8509-39F470BCB136}</Url>
+  </Node>
+  <Node Index="-1" Left="120" Top="336.666656" Width="66.6666641" Height="26.666666">
+    <FillColor>-1</FillColor>
+    <Text>k6</Text>
+    <Tooltip>k6</Tooltip>
+    <Url>{B815939C-A287-40EA-B957-3DB55A48E74D}</Url>
+  </Node>
+  <Node Index="-1" Left="20" Top="403.333344" Width="66.6666641" Height="26.666666">
+    <FillColor>-1</FillColor>
+    <Text>k7</Text>
+    <Tooltip>k7</Tooltip>
+    <Url>{158A244C-B22B-40AC-B4C9-11C9652209E5}</Url>
+  </Node>
+</AddFlow>

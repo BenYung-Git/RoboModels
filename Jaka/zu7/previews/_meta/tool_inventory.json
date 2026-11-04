@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-11-03T14:20:49+08:00",
+  "commands": {
+    "SLDWORKS": false,
+    "acad": false,
+    "ODAFileConverter": true,
+    "TeighaFileConverter": false,
+    "FreeCADCmd": false,
+    "blender": false,
+    "assimp": false,
+    "JT2Go": false
+  },
+  "install_dirs": {
+    "SolidWorks": null,
+    "Autodesk": null,
+    "ODA": "C:\\Program Files\\ODA\\ODAFileConverter 27.10.0",
+    "CAD_Exchanger": null,
+    "FreeCAD": null,
+    "eDrawings": null,
+    "Siemens_JT": null,
+    "Blender": null
+  },
+  "python_modules": {
+    "fitz": false,
+    "PIL": false,
+    "reportlab": false,
+    "ezdxf": false,
+    "trimesh": false,
+    "olefile": false,
+    "OCC": false,
+    "OCP": false
+  },
+  "capabilities": {
+    "sldasm_to_glb": false,
+    "dwg_to_pdf": true,
+    "jt_to_glb": false,
+    "pdf_viewer_ready": false,
+    "notes": [
+      "No SolidWorks / AutoCAD / ODA / CAD Exchanger / JT toolkit / FreeCAD / Blender detected.",
+      "Cannot honestly produce SLDASM→GLB, DWG→PDF, or JT→GLB without installing converters.",
+      "PyMuPDF/reportlab can view or build PDF once produced; they cannot read DWG/SLDASM/JT.",
+      "Renaming extensions or substituting STEP-derived zu7_assembly.glb is forbidden."
+    ],
+    "dwg_to_pdf_method": "ODA DXF + ezdxf matplotlib render"
+  },
+  "robo_tools_cad": {
+    "env_txt": "C:\\RoboTools\\cad\\ENV.txt",
+    "venv_python": "C:\\RoboTools\\cad\\.venv\\Scripts\\python.exe",
+    "modules_probed": null,
+    "odafc_installed": false,
+    "notes": [
+      "C:\\RoboTools\\cad has CadQuery/OCP + ezdxf (STEP→GLB proven; used for zu7_assembly.glb).",
+      "Probed: importStep/importDXF fail on SLDASM/DWG/JT; ezdxf cannot read AC1015 DWG; odafc addon present but ODA File Converter not installed.",
+      "Do not use STEP GLB as SLDASM/JT preview substitute."
+    ],
+    "probe_stdout": "{'cadquery': True, 'OCP': True, 'ezdxf': True, 'PIL': True, 'pygltflib': True}\nODAFC False",
+    "probe_stderr": ""
+  },
+  "attempted_installs": {
+    "Autodesk.DWGTrueView.2027": {
+      "method": "winget install --id Autodesk.DWGTrueView.2027",
+      "result": "failed",
+      "error": "Download 404 Not found (0x80190194); package URL points to French fr-FR webinstall stub that is unavailable",
+      "installed": false
+    },
+    "CAD_Exchanger_Lab": {
+      "method": "disk search + winget search",
+      "result": "not_found",
+      "error": "Not installed; not available on winget; no local installer under C:/D:/U:/Ben Downloads Desktop RoboTools",
+      "installed": false
+    }
+  },
+  "available_but_not_used_without_approval": {
+    "ODA.ODAFileConverter": "winget freeware; DWG version convert / DXF — not requested; does not by itself guarantee layout PDF plot quality",
+    "ODA.ODADrawingsExplorer": "winget freeware viewer; not Autodesk TrueView"
+  }
+}

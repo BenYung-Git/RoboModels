@@ -1,0 +1,832 @@
+{
+  "generated_at": "2026-11-03T14:20:49+08:00",
+  "model_root": "C:\\RoboModels",
+  "zu7_root": "C:\\RoboModels\\Jaka\\zu7",
+  "entries_by_source_rel": {
+    "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7.SLDASM": {
+      "key": "sldasm",
+      "source_rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7.SLDASM",
+      "source_file": "Zu 7.SLDASM",
+      "source_sha256": "52d83cc521da87ffd26787a70a83585db3f6456163e829d233c9a754546364b8",
+      "source_type": "sldasm",
+      "status": "blocked_missing_tool",
+      "required_tools": [
+        "SOLIDWORKS (API/Document Manager) or CAD Exchanger CLI with SLDASM→glTF/GLB"
+      ],
+      "output_rel": null,
+      "output_type": null,
+      "output_sha256": null,
+      "viewer": null,
+      "banner": "SolidWorks組裝衍生預覽",
+      "converted_at": null,
+      "converter": null,
+      "converter_version": null,
+      "convert_params": null,
+      "units": null,
+      "coord_transform": null,
+      "warnings": [
+        "無法在本機匯出 SolidWorks 組裝為 GLB（缺 SolidWorks／CAD Exchanger）。既有 zu7_assembly.glb 為 STEP 衍生，禁止冒充 SLDASM 預覽。",
+        "2026-11-03: 本機無 CAD Exchanger Lab／ExchangerConv，SLDASM／JT→GLB 仍阻塞。"
+      ],
+      "validation": {
+        "sibling_sldprt_count": 7,
+        "sibling_sldprt_ok": true,
+        "internal_refs": "not_readable_without_SolidWorks; co-location of 7 SLDPRT verified only"
+      },
+      "desired_output": "Jaka/zu7/previews/solidworks/zu7_sldasm_preview.glb",
+      "desired_viewer": "glb",
+      "dependencies": [
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 00.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 00.SLDPRT",
+          "exists": true,
+          "size": 1494269,
+          "sha256": "7d009bea91a2bf9d04302b17297a81822e425b6d2a88911c7e8df79f185f3601"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 01.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 01.SLDPRT",
+          "exists": true,
+          "size": 309530,
+          "sha256": "d032cfdaca9b382841a117d525ec63b0577fac17723915bf2f46542f81de43fe"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\ZU 7 02.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/ZU 7 02.SLDPRT",
+          "exists": true,
+          "size": 21450101,
+          "sha256": "6c8d6a2d619a48357b2da3e3fc7288208632c4f40771bd130ec9efe4d037676a"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\ZU 7 03.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/ZU 7 03.SLDPRT",
+          "exists": true,
+          "size": 1026571,
+          "sha256": "8a656a6d24d738cc40b651062ea2c011d87f0f99a77577d01071b32f8e64b7b2"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 04.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 04.SLDPRT",
+          "exists": true,
+          "size": 348604,
+          "sha256": "68e7f939bb1a8c1a4766c09fe5afc5d03b3c93daff8a690fa2cb31eb25d6ba34"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 05.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 05.SLDPRT",
+          "exists": true,
+          "size": 258266,
+          "sha256": "a5fae392ee407306aa6ec06b2e33b6cb3a9ceecb14678df005779a33b2a3fff3"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 06.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 06.SLDPRT",
+          "exists": true,
+          "size": 231751,
+          "sha256": "973494428778cdbe2ab9fa06c68331156d756dc2258fc535ce2b196164a122bc"
+        }
+      ],
+      "pack_rel": "Jaka/zu7/downloads/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033.zip",
+      "pack_label_key": "att_btn_pack_sldasm",
+      "pack_role": "full_assembly_zip_download_only_not_in_attachment_list",
+      "dependency_hint_key": "att_sldasm_dependency_hint"
+    },
+    "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Base Size-V1.1_20231016.DWG": {
+      "key": "dwg_base",
+      "source_rel": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Base Size-V1.1_20231016.DWG",
+      "source_file": "Zu7_C7 Base Size-V1.1_20231016.DWG",
+      "source_sha256": "180002578a76edf6663504df5f45f21da4d7686ed515bc1d31f5abfe752431ce",
+      "source_type": "dwg",
+      "status": "ready",
+      "required_tools": [
+        "ODA File Converter (DWG→DXF/PDF) + plot pipeline, or AutoCAD plot to PDF"
+      ],
+      "output_rel": "Jaka/zu7/previews/drawings/zu7_base.pdf",
+      "output_type": "pdf",
+      "output_sha256": "b6c2a272a91b6487692d3726955e4fd848f121c9827b139013ffeeb1af2af22e",
+      "viewer": "pdf",
+      "banner": "由DWG產生的PDF預覽",
+      "converted_at": "2026-11-03T14:20:49+08:00",
+      "converter": "ODA File Converter 27.10.0 → DXF; ezdxf 1.4.5 MatplotlibBackend → PDF",
+      "converter_version": {
+        "ODAFileConverter": "27.10.0",
+        "ezdxf": "1.4.5",
+        "matplotlib": "via RoboTools/cad .venv"
+      },
+      "convert_params": {
+        "oda": {
+          "input_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dwg_in",
+          "output_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dxf",
+          "out_version": "ACAD2018",
+          "out_type": "DXF",
+          "recurse": 0,
+          "audit": 1
+        },
+        "ezdxf_render": {
+          "layout": "Model",
+          "background_policy": "WHITE",
+          "color_policy": "BLACK",
+          "dpi": 200,
+          "bbox_inches": "tight"
+        },
+        "intermediate_dxf_rel": "Jaka/zu7/previews/_work/dxf/Zu7_C7 Base Size-V1.1_20231016.dxf",
+        "intermediate_dxf_sha256": "479164f6346a464d08d3d469be9953f93ca43e7b10d2cb4b8121f21fcdbfa288"
+      },
+      "units": "drawing units as in DXF (SolidWorks export; dims labeled mm/in)",
+      "coord_transform": null,
+      "warnings": [
+        "來源 DWG 經 ODA 轉 DXF 後以 ezdxf/matplotlib 繪製；非 AutoCAD/TrueView 原生出圖。",
+        "紙張圖框：來源以 Model Space 為主，Layout1/2 為空；未另加圖框。"
+      ],
+      "validation": {
+        "magic_source_dwg": "AC1015",
+        "layouts_checked": true,
+        "model_space_entity_ok": true,
+        "paper_layouts_empty": true,
+        "dxf_dim_count": 15,
+        "dxf_text_count": 98,
+        "pdf_bytes": 121026,
+        "ink_ratio": 0.07103435727931588,
+        "visual_qa": "passed_manual_image_review",
+        "visual_notes": "底座安裝圖：P.C.D./孔位/公差與側視可讀",
+        "frame_check": "no_title_block_in_source_modelspace; geometry_not_cropped",
+        "text_fonts": "dimension/note text rendered via matplotlib; SHX substituted",
+        "no_blank_page": true,
+        "source_sha256_match": true
+      },
+      "desired_output": "Jaka/zu7/previews/drawings/zu7_base.pdf",
+      "desired_viewer": "pdf"
+    },
+    "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 DH Parameter-V1.0.DWG": {
+      "key": "dwg_dh",
+      "source_rel": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 DH Parameter-V1.0.DWG",
+      "source_file": "Zu7_C7 DH Parameter-V1.0.DWG",
+      "source_sha256": "39934e781755bad4c6f025fbbbaa1fbd955b8cc999574037f0ba3e63bb4763d0",
+      "source_type": "dwg",
+      "status": "ready",
+      "required_tools": [
+        "ODA File Converter (DWG→DXF/PDF) + plot pipeline, or AutoCAD plot to PDF"
+      ],
+      "output_rel": "Jaka/zu7/previews/drawings/zu7_dh.pdf",
+      "output_type": "pdf",
+      "output_sha256": "2d0dd980abd29ffce1227859d9bd7da5f15d25c9927ed0b1f43bb00a9415b0b0",
+      "viewer": "pdf",
+      "banner": "由DWG產生的PDF預覽",
+      "converted_at": "2026-11-03T14:20:49+08:00",
+      "converter": "ODA File Converter 27.10.0 → DXF; ezdxf 1.4.5 MatplotlibBackend → PDF",
+      "converter_version": {
+        "ODAFileConverter": "27.10.0",
+        "ezdxf": "1.4.5",
+        "matplotlib": "via RoboTools/cad .venv"
+      },
+      "convert_params": {
+        "oda": {
+          "input_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dwg_in",
+          "output_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dxf",
+          "out_version": "ACAD2018",
+          "out_type": "DXF",
+          "recurse": 0,
+          "audit": 1
+        },
+        "ezdxf_render": {
+          "layout": "Model",
+          "background_policy": "WHITE",
+          "color_policy": "BLACK",
+          "dpi": 200,
+          "bbox_inches": "tight"
+        },
+        "intermediate_dxf_rel": "Jaka/zu7/previews/_work/dxf/Zu7_C7 DH Parameter-V1.0.dxf",
+        "intermediate_dxf_sha256": "9a78459c78cd99682818fe2c98bb722f0e9c6aad2418e31ea2f671e53103561c"
+      },
+      "units": "drawing units as in DXF (SolidWorks export; dims labeled mm/in)",
+      "coord_transform": null,
+      "warnings": [
+        "來源 DWG 經 ODA 轉 DXF 後以 ezdxf/matplotlib 繪製；非 AutoCAD/TrueView 原生出圖。",
+        "紙張圖框：來源以 Model Space 為主，Layout1/2 為空；未另加圖框。"
+      ],
+      "validation": {
+        "magic_source_dwg": "AC1015",
+        "layouts_checked": true,
+        "model_space_entity_ok": true,
+        "paper_layouts_empty": true,
+        "dxf_dim_count": 10,
+        "dxf_text_count": 20,
+        "pdf_bytes": 93296,
+        "ink_ratio": 0.0498256151189412,
+        "visual_qa": "passed_manual_image_review",
+        "visual_notes": "DH 側視連桿尺寸完整可讀",
+        "frame_check": "no_title_block_in_source_modelspace; geometry_not_cropped",
+        "text_fonts": "dimension/note text rendered via matplotlib; SHX substituted",
+        "no_blank_page": true,
+        "source_sha256_match": true
+      },
+      "desired_output": "Jaka/zu7/previews/drawings/zu7_dh.pdf",
+      "desired_viewer": "pdf"
+    },
+    "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Flange Size-V1.0.DWG": {
+      "key": "dwg_flange",
+      "source_rel": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Flange Size-V1.0.DWG",
+      "source_file": "Zu7_C7 Flange Size-V1.0.DWG",
+      "source_sha256": "c6656a4e8c370fba7bdc1ccd96d319daa90eeff32da9863fc3ac5253832fc818",
+      "source_type": "dwg",
+      "status": "ready",
+      "required_tools": [
+        "ODA File Converter (DWG→DXF/PDF) + plot pipeline, or AutoCAD plot to PDF"
+      ],
+      "output_rel": "Jaka/zu7/previews/drawings/zu7_flange.pdf",
+      "output_type": "pdf",
+      "output_sha256": "3cfe71a1735c5f53bb26fa203d944dcdc21d0c4043a42503a8645c622c792fd2",
+      "viewer": "pdf",
+      "banner": "由DWG產生的PDF預覽",
+      "converted_at": "2026-11-03T14:20:49+08:00",
+      "converter": "ODA File Converter 27.10.0 → DXF; ezdxf 1.4.5 MatplotlibBackend → PDF",
+      "converter_version": {
+        "ODAFileConverter": "27.10.0",
+        "ezdxf": "1.4.5",
+        "matplotlib": "via RoboTools/cad .venv"
+      },
+      "convert_params": {
+        "oda": {
+          "input_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dwg_in",
+          "output_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dxf",
+          "out_version": "ACAD2018",
+          "out_type": "DXF",
+          "recurse": 0,
+          "audit": 1
+        },
+        "ezdxf_render": {
+          "layout": "Model",
+          "background_policy": "WHITE",
+          "color_policy": "BLACK",
+          "dpi": 200,
+          "bbox_inches": "tight"
+        },
+        "intermediate_dxf_rel": "Jaka/zu7/previews/_work/dxf/Zu7_C7 Flange Size-V1.0.dxf",
+        "intermediate_dxf_sha256": "de9c35ed0c77b1b87111887c1f3c9e861efe1113d8ecc13ab156f421cf43adbf"
+      },
+      "units": "drawing units as in DXF (SolidWorks export; dims labeled mm/in)",
+      "coord_transform": null,
+      "warnings": [
+        "來源 DWG 經 ODA 轉 DXF 後以 ezdxf/matplotlib 繪製；非 AutoCAD/TrueView 原生出圖。",
+        "紙張圖框：來源以 Model Space 為主，Layout1/2 為空；未另加圖框。"
+      ],
+      "validation": {
+        "magic_source_dwg": "AC1015",
+        "layouts_checked": true,
+        "model_space_entity_ok": true,
+        "paper_layouts_empty": true,
+        "dxf_dim_count": 12,
+        "dxf_text_count": 47,
+        "pdf_bytes": 54350,
+        "ink_ratio": 0.042947212726037964,
+        "visual_qa": "passed_manual_image_review",
+        "visual_notes": "法蘭雙視圖、P.C.D. Ø50、公差可讀",
+        "frame_check": "no_title_block_in_source_modelspace; geometry_not_cropped",
+        "text_fonts": "dimension/note text rendered via matplotlib; SHX substituted",
+        "no_blank_page": true,
+        "source_sha256_match": true
+      },
+      "desired_output": "Jaka/zu7/previews/drawings/zu7_flange.pdf",
+      "desired_viewer": "pdf"
+    },
+    "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Workspace-V1.0.DWG": {
+      "key": "dwg_workspace",
+      "source_rel": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Workspace-V1.0.DWG",
+      "source_file": "Zu7_C7 Workspace-V1.0.DWG",
+      "source_sha256": "45bf2d4dde420f999eda1f63efab99c9d826f61c90c5d4a372e9483be28a4669",
+      "source_type": "dwg",
+      "status": "ready",
+      "required_tools": [
+        "ODA File Converter (DWG→DXF/PDF) + plot pipeline, or AutoCAD plot to PDF"
+      ],
+      "output_rel": "Jaka/zu7/previews/drawings/zu7_workspace.pdf",
+      "output_type": "pdf",
+      "output_sha256": "178b3b83ed3c84efc8265df27ba0880b456ab631ecd3ca6ad269e63455ca8a6d",
+      "viewer": "pdf",
+      "banner": "由DWG產生的PDF預覽",
+      "converted_at": "2026-11-03T14:20:49+08:00",
+      "converter": "ODA File Converter 27.10.0 → DXF; ezdxf 1.4.5 MatplotlibBackend → PDF",
+      "converter_version": {
+        "ODAFileConverter": "27.10.0",
+        "ezdxf": "1.4.5",
+        "matplotlib": "via RoboTools/cad .venv"
+      },
+      "convert_params": {
+        "oda": {
+          "input_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dwg_in",
+          "output_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dxf",
+          "out_version": "ACAD2018",
+          "out_type": "DXF",
+          "recurse": 0,
+          "audit": 1
+        },
+        "ezdxf_render": {
+          "layout": "Model",
+          "background_policy": "WHITE",
+          "color_policy": "BLACK",
+          "dpi": 200,
+          "bbox_inches": "tight"
+        },
+        "intermediate_dxf_rel": "Jaka/zu7/previews/_work/dxf/Zu7_C7 Workspace-V1.0.dxf",
+        "intermediate_dxf_sha256": "0ce2d6965d3e91e0c408d6ac82687f118dd8f28ee5886cf4520b5d416d8b15b6"
+      },
+      "units": "drawing units as in DXF (SolidWorks export; dims labeled mm/in)",
+      "coord_transform": null,
+      "warnings": [
+        "來源 DWG 經 ODA 轉 DXF 後以 ezdxf/matplotlib 繪製；非 AutoCAD/TrueView 原生出圖。",
+        "紙張圖框：來源以 Model Space 為主，Layout1/2 為空；未另加圖框。"
+      ],
+      "validation": {
+        "magic_source_dwg": "AC1015",
+        "layouts_checked": true,
+        "model_space_entity_ok": true,
+        "paper_layouts_empty": true,
+        "dxf_dim_count": 6,
+        "dxf_text_count": 19,
+        "pdf_bytes": 136609,
+        "ink_ratio": 0.06615620451518998,
+        "visual_qa": "passed_manual_image_review",
+        "visual_notes": "工作空間兩視圖與 P Point 標註可讀",
+        "frame_check": "no_title_block_in_source_modelspace; geometry_not_cropped",
+        "text_fonts": "dimension/note text rendered via matplotlib; SHX substituted",
+        "no_blank_page": true,
+        "source_sha256_match": true
+      },
+      "desired_output": "Jaka/zu7/previews/drawings/zu7_workspace.pdf",
+      "desired_viewer": "pdf"
+    },
+    "Jaka/zu7/downloads/_extract/jt/JAKA_Zu_7_V2.cojt/JAKA_Zu_7_V2.jt": {
+      "key": "jt",
+      "source_rel": "Jaka/zu7/downloads/_extract/jt/JAKA_Zu_7_V2.cojt/JAKA_Zu_7_V2.jt",
+      "source_file": "JAKA_Zu_7_V2.jt",
+      "source_sha256": "7c91be7515fea27636a1ef45ba9957ba22076d3306b53db5f0ef5d80a41bbe27",
+      "source_type": "jt",
+      "status": "blocked_missing_tool",
+      "required_tools": [
+        "CAD Exchanger CLI (JT→glTF/GLB) or Siemens JT Open Toolkit / licensed JT exporter"
+      ],
+      "output_rel": null,
+      "output_type": null,
+      "output_sha256": null,
+      "viewer": null,
+      "banner": "JT衍生預覽",
+      "converted_at": null,
+      "converter": null,
+      "converter_version": null,
+      "convert_params": null,
+      "units": null,
+      "coord_transform": null,
+      "warnings": [
+        "JT Version 10.0 可讀標頭已確認；本機無 JT 轉 GLB 工具。preview.bmp 僅可作標示縮圖，不得冒充互動 3D 預覽完成。",
+        "2026-11-03: 本機無 CAD Exchanger Lab／ExchangerConv，SLDASM／JT→GLB 仍阻塞。"
+      ],
+      "validation": {
+        "header": "Version 10.0 JT  DM 8.3.1.10                    ",
+        "companions_ok": true
+      },
+      "desired_output": "Jaka/zu7/previews/jt/zu7_jt_preview.glb",
+      "desired_viewer": "glb",
+      "dependencies": [
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\jt\\JAKA_Zu_7_V2.cojt\\kin_graph.xml",
+          "rel": "Jaka/zu7/downloads/_extract/jt/JAKA_Zu_7_V2.cojt/kin_graph.xml",
+          "exists": true,
+          "size": 1919,
+          "sha256": "3f0de99af650135ed68f656cd05d2bed9347177d14b3a9b973fe8ca41c052a48"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\jt\\JAKA_Zu_7_V2.cojt\\preview.bmp",
+          "rel": "Jaka/zu7/downloads/_extract/jt/JAKA_Zu_7_V2.cojt/preview.bmp",
+          "exists": true,
+          "size": 91254,
+          "sha256": "5f652099b5477fcc97da3413dec5bcb1efc649e504aa3c18fed24057f53c2c13"
+        }
+      ],
+      "pack_rel": "Jaka/zu7/downloads/jt/JAKA_Zu_7_V2.cojt.zip",
+      "pack_label_key": "att_btn_pack_jt",
+      "pack_role": "jt_full_pack_download_only_not_in_attachment_list",
+      "thumbnail_rel": "Jaka/zu7/downloads/_extract/jt/JAKA_Zu_7_V2.cojt/preview.bmp",
+      "thumbnail_note": "optional labeled thumbnail only; not interactive 3D"
+    }
+  },
+  "entries": [
+    {
+      "key": "sldasm",
+      "source_rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7.SLDASM",
+      "source_file": "Zu 7.SLDASM",
+      "source_sha256": "52d83cc521da87ffd26787a70a83585db3f6456163e829d233c9a754546364b8",
+      "source_type": "sldasm",
+      "status": "blocked_missing_tool",
+      "required_tools": [
+        "SOLIDWORKS (API/Document Manager) or CAD Exchanger CLI with SLDASM→glTF/GLB"
+      ],
+      "output_rel": null,
+      "output_type": null,
+      "output_sha256": null,
+      "viewer": null,
+      "banner": "SolidWorks組裝衍生預覽",
+      "converted_at": null,
+      "converter": null,
+      "converter_version": null,
+      "convert_params": null,
+      "units": null,
+      "coord_transform": null,
+      "warnings": [
+        "無法在本機匯出 SolidWorks 組裝為 GLB（缺 SolidWorks／CAD Exchanger）。既有 zu7_assembly.glb 為 STEP 衍生，禁止冒充 SLDASM 預覽。",
+        "2026-11-03: 本機無 CAD Exchanger Lab／ExchangerConv，SLDASM／JT→GLB 仍阻塞。"
+      ],
+      "validation": {
+        "sibling_sldprt_count": 7,
+        "sibling_sldprt_ok": true,
+        "internal_refs": "not_readable_without_SolidWorks; co-location of 7 SLDPRT verified only"
+      },
+      "desired_output": "Jaka/zu7/previews/solidworks/zu7_sldasm_preview.glb",
+      "desired_viewer": "glb",
+      "dependencies": [
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 00.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 00.SLDPRT",
+          "exists": true,
+          "size": 1494269,
+          "sha256": "7d009bea91a2bf9d04302b17297a81822e425b6d2a88911c7e8df79f185f3601"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 01.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 01.SLDPRT",
+          "exists": true,
+          "size": 309530,
+          "sha256": "d032cfdaca9b382841a117d525ec63b0577fac17723915bf2f46542f81de43fe"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\ZU 7 02.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/ZU 7 02.SLDPRT",
+          "exists": true,
+          "size": 21450101,
+          "sha256": "6c8d6a2d619a48357b2da3e3fc7288208632c4f40771bd130ec9efe4d037676a"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\ZU 7 03.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/ZU 7 03.SLDPRT",
+          "exists": true,
+          "size": 1026571,
+          "sha256": "8a656a6d24d738cc40b651062ea2c011d87f0f99a77577d01071b32f8e64b7b2"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 04.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 04.SLDPRT",
+          "exists": true,
+          "size": 348604,
+          "sha256": "68e7f939bb1a8c1a4766c09fe5afc5d03b3c93daff8a690fa2cb31eb25d6ba34"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 05.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 05.SLDPRT",
+          "exists": true,
+          "size": 258266,
+          "sha256": "a5fae392ee407306aa6ec06b2e33b6cb3a9ceecb14678df005779a33b2a3fff3"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\draggable\\JAKA Zu 7sld-V2.0_20231016_20231102173807A033\\Zu 7 06.SLDPRT",
+          "rel": "Jaka/zu7/downloads/_extract/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033/Zu 7 06.SLDPRT",
+          "exists": true,
+          "size": 231751,
+          "sha256": "973494428778cdbe2ab9fa06c68331156d756dc2258fc535ce2b196164a122bc"
+        }
+      ],
+      "pack_rel": "Jaka/zu7/downloads/draggable/JAKA Zu 7sld-V2.0_20231016_20231102173807A033.zip",
+      "pack_label_key": "att_btn_pack_sldasm",
+      "pack_role": "full_assembly_zip_download_only_not_in_attachment_list",
+      "dependency_hint_key": "att_sldasm_dependency_hint"
+    },
+    {
+      "key": "dwg_base",
+      "source_rel": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Base Size-V1.1_20231016.DWG",
+      "source_file": "Zu7_C7 Base Size-V1.1_20231016.DWG",
+      "source_sha256": "180002578a76edf6663504df5f45f21da4d7686ed515bc1d31f5abfe752431ce",
+      "source_type": "dwg",
+      "status": "ready",
+      "required_tools": [
+        "ODA File Converter (DWG→DXF/PDF) + plot pipeline, or AutoCAD plot to PDF"
+      ],
+      "output_rel": "Jaka/zu7/previews/drawings/zu7_base.pdf",
+      "output_type": "pdf",
+      "output_sha256": "b6c2a272a91b6487692d3726955e4fd848f121c9827b139013ffeeb1af2af22e",
+      "viewer": "pdf",
+      "banner": "由DWG產生的PDF預覽",
+      "converted_at": "2026-11-03T14:20:49+08:00",
+      "converter": "ODA File Converter 27.10.0 → DXF; ezdxf 1.4.5 MatplotlibBackend → PDF",
+      "converter_version": {
+        "ODAFileConverter": "27.10.0",
+        "ezdxf": "1.4.5",
+        "matplotlib": "via RoboTools/cad .venv"
+      },
+      "convert_params": {
+        "oda": {
+          "input_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dwg_in",
+          "output_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dxf",
+          "out_version": "ACAD2018",
+          "out_type": "DXF",
+          "recurse": 0,
+          "audit": 1
+        },
+        "ezdxf_render": {
+          "layout": "Model",
+          "background_policy": "WHITE",
+          "color_policy": "BLACK",
+          "dpi": 200,
+          "bbox_inches": "tight"
+        },
+        "intermediate_dxf_rel": "Jaka/zu7/previews/_work/dxf/Zu7_C7 Base Size-V1.1_20231016.dxf",
+        "intermediate_dxf_sha256": "479164f6346a464d08d3d469be9953f93ca43e7b10d2cb4b8121f21fcdbfa288"
+      },
+      "units": "drawing units as in DXF (SolidWorks export; dims labeled mm/in)",
+      "coord_transform": null,
+      "warnings": [
+        "來源 DWG 經 ODA 轉 DXF 後以 ezdxf/matplotlib 繪製；非 AutoCAD/TrueView 原生出圖。",
+        "紙張圖框：來源以 Model Space 為主，Layout1/2 為空；未另加圖框。"
+      ],
+      "validation": {
+        "magic_source_dwg": "AC1015",
+        "layouts_checked": true,
+        "model_space_entity_ok": true,
+        "paper_layouts_empty": true,
+        "dxf_dim_count": 15,
+        "dxf_text_count": 98,
+        "pdf_bytes": 121026,
+        "ink_ratio": 0.07103435727931588,
+        "visual_qa": "passed_manual_image_review",
+        "visual_notes": "底座安裝圖：P.C.D./孔位/公差與側視可讀",
+        "frame_check": "no_title_block_in_source_modelspace; geometry_not_cropped",
+        "text_fonts": "dimension/note text rendered via matplotlib; SHX substituted",
+        "no_blank_page": true,
+        "source_sha256_match": true
+      },
+      "desired_output": "Jaka/zu7/previews/drawings/zu7_base.pdf",
+      "desired_viewer": "pdf"
+    },
+    {
+      "key": "dwg_dh",
+      "source_rel": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 DH Parameter-V1.0.DWG",
+      "source_file": "Zu7_C7 DH Parameter-V1.0.DWG",
+      "source_sha256": "39934e781755bad4c6f025fbbbaa1fbd955b8cc999574037f0ba3e63bb4763d0",
+      "source_type": "dwg",
+      "status": "ready",
+      "required_tools": [
+        "ODA File Converter (DWG→DXF/PDF) + plot pipeline, or AutoCAD plot to PDF"
+      ],
+      "output_rel": "Jaka/zu7/previews/drawings/zu7_dh.pdf",
+      "output_type": "pdf",
+      "output_sha256": "2d0dd980abd29ffce1227859d9bd7da5f15d25c9927ed0b1f43bb00a9415b0b0",
+      "viewer": "pdf",
+      "banner": "由DWG產生的PDF預覽",
+      "converted_at": "2026-11-03T14:20:49+08:00",
+      "converter": "ODA File Converter 27.10.0 → DXF; ezdxf 1.4.5 MatplotlibBackend → PDF",
+      "converter_version": {
+        "ODAFileConverter": "27.10.0",
+        "ezdxf": "1.4.5",
+        "matplotlib": "via RoboTools/cad .venv"
+      },
+      "convert_params": {
+        "oda": {
+          "input_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dwg_in",
+          "output_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dxf",
+          "out_version": "ACAD2018",
+          "out_type": "DXF",
+          "recurse": 0,
+          "audit": 1
+        },
+        "ezdxf_render": {
+          "layout": "Model",
+          "background_policy": "WHITE",
+          "color_policy": "BLACK",
+          "dpi": 200,
+          "bbox_inches": "tight"
+        },
+        "intermediate_dxf_rel": "Jaka/zu7/previews/_work/dxf/Zu7_C7 DH Parameter-V1.0.dxf",
+        "intermediate_dxf_sha256": "9a78459c78cd99682818fe2c98bb722f0e9c6aad2418e31ea2f671e53103561c"
+      },
+      "units": "drawing units as in DXF (SolidWorks export; dims labeled mm/in)",
+      "coord_transform": null,
+      "warnings": [
+        "來源 DWG 經 ODA 轉 DXF 後以 ezdxf/matplotlib 繪製；非 AutoCAD/TrueView 原生出圖。",
+        "紙張圖框：來源以 Model Space 為主，Layout1/2 為空；未另加圖框。"
+      ],
+      "validation": {
+        "magic_source_dwg": "AC1015",
+        "layouts_checked": true,
+        "model_space_entity_ok": true,
+        "paper_layouts_empty": true,
+        "dxf_dim_count": 10,
+        "dxf_text_count": 20,
+        "pdf_bytes": 93296,
+        "ink_ratio": 0.0498256151189412,
+        "visual_qa": "passed_manual_image_review",
+        "visual_notes": "DH 側視連桿尺寸完整可讀",
+        "frame_check": "no_title_block_in_source_modelspace; geometry_not_cropped",
+        "text_fonts": "dimension/note text rendered via matplotlib; SHX substituted",
+        "no_blank_page": true,
+        "source_sha256_match": true
+      },
+      "desired_output": "Jaka/zu7/previews/drawings/zu7_dh.pdf",
+      "desired_viewer": "pdf"
+    },
+    {
+      "key": "dwg_flange",
+      "source_rel": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Flange Size-V1.0.DWG",
+      "source_file": "Zu7_C7 Flange Size-V1.0.DWG",
+      "source_sha256": "c6656a4e8c370fba7bdc1ccd96d319daa90eeff32da9863fc3ac5253832fc818",
+      "source_type": "dwg",
+      "status": "ready",
+      "required_tools": [
+        "ODA File Converter (DWG→DXF/PDF) + plot pipeline, or AutoCAD plot to PDF"
+      ],
+      "output_rel": "Jaka/zu7/previews/drawings/zu7_flange.pdf",
+      "output_type": "pdf",
+      "output_sha256": "3cfe71a1735c5f53bb26fa203d944dcdc21d0c4043a42503a8645c622c792fd2",
+      "viewer": "pdf",
+      "banner": "由DWG產生的PDF預覽",
+      "converted_at": "2026-11-03T14:20:49+08:00",
+      "converter": "ODA File Converter 27.10.0 → DXF; ezdxf 1.4.5 MatplotlibBackend → PDF",
+      "converter_version": {
+        "ODAFileConverter": "27.10.0",
+        "ezdxf": "1.4.5",
+        "matplotlib": "via RoboTools/cad .venv"
+      },
+      "convert_params": {
+        "oda": {
+          "input_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dwg_in",
+          "output_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dxf",
+          "out_version": "ACAD2018",
+          "out_type": "DXF",
+          "recurse": 0,
+          "audit": 1
+        },
+        "ezdxf_render": {
+          "layout": "Model",
+          "background_policy": "WHITE",
+          "color_policy": "BLACK",
+          "dpi": 200,
+          "bbox_inches": "tight"
+        },
+        "intermediate_dxf_rel": "Jaka/zu7/previews/_work/dxf/Zu7_C7 Flange Size-V1.0.dxf",
+        "intermediate_dxf_sha256": "de9c35ed0c77b1b87111887c1f3c9e861efe1113d8ecc13ab156f421cf43adbf"
+      },
+      "units": "drawing units as in DXF (SolidWorks export; dims labeled mm/in)",
+      "coord_transform": null,
+      "warnings": [
+        "來源 DWG 經 ODA 轉 DXF 後以 ezdxf/matplotlib 繪製；非 AutoCAD/TrueView 原生出圖。",
+        "紙張圖框：來源以 Model Space 為主，Layout1/2 為空；未另加圖框。"
+      ],
+      "validation": {
+        "magic_source_dwg": "AC1015",
+        "layouts_checked": true,
+        "model_space_entity_ok": true,
+        "paper_layouts_empty": true,
+        "dxf_dim_count": 12,
+        "dxf_text_count": 47,
+        "pdf_bytes": 54350,
+        "ink_ratio": 0.042947212726037964,
+        "visual_qa": "passed_manual_image_review",
+        "visual_notes": "法蘭雙視圖、P.C.D. Ø50、公差可讀",
+        "frame_check": "no_title_block_in_source_modelspace; geometry_not_cropped",
+        "text_fonts": "dimension/note text rendered via matplotlib; SHX substituted",
+        "no_blank_page": true,
+        "source_sha256_match": true
+      },
+      "desired_output": "Jaka/zu7/previews/drawings/zu7_flange.pdf",
+      "desired_viewer": "pdf"
+    },
+    {
+      "key": "dwg_workspace",
+      "source_rel": "Jaka/zu7/downloads/_extract/drawing_2d/JAKA Zu7_C7_20231222090631A028/Zu7_C7 Workspace-V1.0.DWG",
+      "source_file": "Zu7_C7 Workspace-V1.0.DWG",
+      "source_sha256": "45bf2d4dde420f999eda1f63efab99c9d826f61c90c5d4a372e9483be28a4669",
+      "source_type": "dwg",
+      "status": "ready",
+      "required_tools": [
+        "ODA File Converter (DWG→DXF/PDF) + plot pipeline, or AutoCAD plot to PDF"
+      ],
+      "output_rel": "Jaka/zu7/previews/drawings/zu7_workspace.pdf",
+      "output_type": "pdf",
+      "output_sha256": "178b3b83ed3c84efc8265df27ba0880b456ab631ecd3ca6ad269e63455ca8a6d",
+      "viewer": "pdf",
+      "banner": "由DWG產生的PDF預覽",
+      "converted_at": "2026-11-03T14:20:49+08:00",
+      "converter": "ODA File Converter 27.10.0 → DXF; ezdxf 1.4.5 MatplotlibBackend → PDF",
+      "converter_version": {
+        "ODAFileConverter": "27.10.0",
+        "ezdxf": "1.4.5",
+        "matplotlib": "via RoboTools/cad .venv"
+      },
+      "convert_params": {
+        "oda": {
+          "input_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dwg_in",
+          "output_folder": "C:\\RoboModels\\Jaka\\zu7\\previews\\_work\\dxf",
+          "out_version": "ACAD2018",
+          "out_type": "DXF",
+          "recurse": 0,
+          "audit": 1
+        },
+        "ezdxf_render": {
+          "layout": "Model",
+          "background_policy": "WHITE",
+          "color_policy": "BLACK",
+          "dpi": 200,
+          "bbox_inches": "tight"
+        },
+        "intermediate_dxf_rel": "Jaka/zu7/previews/_work/dxf/Zu7_C7 Workspace-V1.0.dxf",
+        "intermediate_dxf_sha256": "0ce2d6965d3e91e0c408d6ac82687f118dd8f28ee5886cf4520b5d416d8b15b6"
+      },
+      "units": "drawing units as in DXF (SolidWorks export; dims labeled mm/in)",
+      "coord_transform": null,
+      "warnings": [
+        "來源 DWG 經 ODA 轉 DXF 後以 ezdxf/matplotlib 繪製；非 AutoCAD/TrueView 原生出圖。",
+        "紙張圖框：來源以 Model Space 為主，Layout1/2 為空；未另加圖框。"
+      ],
+      "validation": {
+        "magic_source_dwg": "AC1015",
+        "layouts_checked": true,
+        "model_space_entity_ok": true,
+        "paper_layouts_empty": true,
+        "dxf_dim_count": 6,
+        "dxf_text_count": 19,
+        "pdf_bytes": 136609,
+        "ink_ratio": 0.06615620451518998,
+        "visual_qa": "passed_manual_image_review",
+        "visual_notes": "工作空間兩視圖與 P Point 標註可讀",
+        "frame_check": "no_title_block_in_source_modelspace; geometry_not_cropped",
+        "text_fonts": "dimension/note text rendered via matplotlib; SHX substituted",
+        "no_blank_page": true,
+        "source_sha256_match": true
+      },
+      "desired_output": "Jaka/zu7/previews/drawings/zu7_workspace.pdf",
+      "desired_viewer": "pdf"
+    },
+    {
+      "key": "jt",
+      "source_rel": "Jaka/zu7/downloads/_extract/jt/JAKA_Zu_7_V2.cojt/JAKA_Zu_7_V2.jt",
+      "source_file": "JAKA_Zu_7_V2.jt",
+      "source_sha256": "7c91be7515fea27636a1ef45ba9957ba22076d3306b53db5f0ef5d80a41bbe27",
+      "source_type": "jt",
+      "status": "blocked_missing_tool",
+      "required_tools": [
+        "CAD Exchanger CLI (JT→glTF/GLB) or Siemens JT Open Toolkit / licensed JT exporter"
+      ],
+      "output_rel": null,
+      "output_type": null,
+      "output_sha256": null,
+      "viewer": null,
+      "banner": "JT衍生預覽",
+      "converted_at": null,
+      "converter": null,
+      "converter_version": null,
+      "convert_params": null,
+      "units": null,
+      "coord_transform": null,
+      "warnings": [
+        "JT Version 10.0 可讀標頭已確認；本機無 JT 轉 GLB 工具。preview.bmp 僅可作標示縮圖，不得冒充互動 3D 預覽完成。",
+        "2026-11-03: 本機無 CAD Exchanger Lab／ExchangerConv，SLDASM／JT→GLB 仍阻塞。"
+      ],
+      "validation": {
+        "header": "Version 10.0 JT  DM 8.3.1.10                    ",
+        "companions_ok": true
+      },
+      "desired_output": "Jaka/zu7/previews/jt/zu7_jt_preview.glb",
+      "desired_viewer": "glb",
+      "dependencies": [
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\jt\\JAKA_Zu_7_V2.cojt\\kin_graph.xml",
+          "rel": "Jaka/zu7/downloads/_extract/jt/JAKA_Zu_7_V2.cojt/kin_graph.xml",
+          "exists": true,
+          "size": 1919,
+          "sha256": "3f0de99af650135ed68f656cd05d2bed9347177d14b3a9b973fe8ca41c052a48"
+        },
+        {
+          "abs": "C:\\RoboModels\\Jaka\\zu7\\downloads\\_extract\\jt\\JAKA_Zu_7_V2.cojt\\preview.bmp",
+          "rel": "Jaka/zu7/downloads/_extract/jt/JAKA_Zu_7_V2.cojt/preview.bmp",
+          "exists": true,
+          "size": 91254,
+          "sha256": "5f652099b5477fcc97da3413dec5bcb1efc649e504aa3c18fed24057f53c2c13"
+        }
+      ],
+      "pack_rel": "Jaka/zu7/downloads/jt/JAKA_Zu_7_V2.cojt.zip",
+      "pack_label_key": "att_btn_pack_jt",
+      "pack_role": "jt_full_pack_download_only_not_in_attachment_list",
+      "thumbnail_rel": "Jaka/zu7/downloads/_extract/jt/JAKA_Zu_7_V2.cojt/preview.bmp",
+      "thumbnail_note": "optional labeled thumbnail only; not interactive 3D"
+    }
+  ],
+  "conversion_summary": {
+    "ready": [
+      "dwg_base",
+      "dwg_dh",
+      "dwg_flange",
+      "dwg_workspace"
+    ],
+    "blocked": [
+      "sldasm",
+      "jt"
+    ],
+    "failed": []
+  }
+}
